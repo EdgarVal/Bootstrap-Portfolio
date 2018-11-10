@@ -1,0 +1,123 @@
+body {
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: url(http://sfwallpaper.com/images/grey-wallpaper-background-30.jpg);
+    height: 100%;
+    color: gray;
+}
+
+
+#masthead {
+    background-color: white;
+    padding: 20px;
+    border-bottom: solid 3px gray;
+}
+
+ul {
+    display: inline;
+}
+
+.links {
+    border-right-style: solid;
+    padding-right: 34px;
+    border-color: gray;
+    
+}
+
+#logo {
+    color: white;
+    background-color: #4aaaa5;
+    padding: 21px;
+    margin-bottom: -1%;
+}
+
+a {
+    color: gray;
+    text-decoration: none !important;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: red;
+}
+
+#main-container {
+    background-color: white;
+    margin-top: 25px;
+    padding: 5px 10px 0px 10px;
+}
+
+.wrapper {
+    border-bottom: solid 3px gray;
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin-left: 3%;
+    color: #4aaaa5;
+    border-bottom: solid 2px 100%;
+}
+
+P {
+    margin-right: 10%;
+    color: gray;
+}
+
+.auth-image {
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.img-thumbnail {
+    width: 340px;
+    height: 310px;
+}
+
+.imgtxt {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-left: 70px;
+}
+
+#contact-form {
+    margin-left: 5px;
+}
+
+#txtbox {
+    width: 800px;
+    margin-bottom: 5px;
+}
+
+#message {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+
+footer  {
+    position: absolute;
+    text-align: center;
+    bottom: auto;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: gray;
+    color: white;
+}
+
+.main-section {
+    margin-bottom: 100px;
+}
+
