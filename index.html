@@ -3,65 +3,238 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>About | Edgar Valenzuela</title>
+    <title>Edgar Valenzuela Business Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oregano" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
-    <header id="masthead">
-     <div class='container'>
-            <div>
-                <div class="row">
-                    <div class="col">
-                        <a href="index.html" id="logo">Edgar Valenzuela</a>
-                    </div>
-                    <div class="col">
-                        <nav>
-                            <ul class="links"><a href="index.html">About</a></ul>
-                            
-                            <ul class="links"><a href="portfolio.html">Portfolio</a></ul> 
-                            
-                            <ul><a href="contact.html">Contact</a></ul>
-                        </nav>    
-                    </div>
-                </div>
-            </div>
-        </header>
+<!-----------------------nav bar----------------------------->
+<nav id="masthead" class="navbar navbar-nav-scroll navbar-expand navbar-inverse bd-navbar">
+    <div class="container">
+        <h1><i>Edgar Valenzuela</i></h1>
+            <ul id="center" class="nav justify-content">
+                <li class="nav-item active"><a class="nav-link" href="#" id="homepageLink"><i class="large material-icons">portrait</i><i>Home</i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#" id="portfolioLink"><i class="large material-icons">important_devices</i><i>Portfolio</i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#" id="contactLink"><i class="large material-icons">mail_outline</i><i>Contact</i></a></li>
+            </ul>
 
-        <div id="main-container" class="container">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a id="git" href="https://github.com/GrrrRocks" target="_blank"><i class="fab fa-github-square fa-fw"></i></a>
+                </li>
+            
+                <li class="nav-item">
+                    <a id="linkedin" href="https://www.linkedin.com/in/edgar-valenzuela-003937168/" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a>
+                </li>
+            </ul>
+    </div>
+</nav>
+<!----------------------------------------------------------->
+
+<!-----------------------homepage---------------------------->
+<div id="homepage">
+    <div id="main-container" class="container">
             <section class="main-section">
-               <div class="wrapper">
-                <h1>About Me</h1></div>
-                 <div class="container">
+                <div class="wrapper">
+                <h1><i>About Me</i></h1></div>
+                    <div class="container">
                     <div class="row">
                         <div class="col">
-                            <img src="me2.jpg." class="auth-image" alt="Edgar Valenzuela">
+                            <img src="assets/photos/me2.JPG" class="auth-image shadow-lg rounded" alt="Edgar Valenzuela">
                         </div>
-                        <div class="col">
-                            <p>My name is Edgar Valenzuela. Im 30 years old, born in southern California but moved out to Arizona my senior 
-                                of high school. Im more used to it here now than before, but still not used to the summers. Im Hispanic-American
-                                and both my parents are from Mexico but moved to the states before I was born.
+                        <div class="col" id="bio">
+                            <p>My name is Edgar Valenzuela & I create beautiful & functional websites & apps. I'm currently enrolled with University of Arizona for their Coding & Web Development Bootcamp to pursue a career in programming & design. In fact this portfolio page was one of my first projects that I built & started the foundation for the skills I've gained & the learning I'm still engaged in.
                             </p>
-
-                            <p>I have a lot of hobbies an interest. As I stated above, Im really big into sports or almost all kinds. But also big into music, video games,
-                                movies and shows, gotten very skilled and passionate about cooking, animals, travleing, etc. Juts about anything thats gonna give me a new 
-                                experience and a sense of the possiblities has to offer. Now as I purse my life and hopefully my career towards becoming a web programmer,
-                                thats stands more true that ever right now.
+                            <p>I have a diverse range of skill sets, ranging from design with HTML / CSS / Javascript, as well as back end functionality with Jquery, Node & still learning more as I stay engaged in new technologies coming out to strengthen my overall skills & abilities.
                             </p>
                         </div>
                     </div>
             </section>
+        </div>
+    </div>
+</div>
+<!----------------------------------------------------------->
+
+<!-----------------------portfolio--------------------------->
+
+<div id="Portfolio">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <div class="wrapper">
+                <h1><i>Portfolio</i></h1>
+                <p>From front/back-end work, to Web Components & design, check out my latest web projects</p>
+            </div>
+                <div class="card-deck">
+                        <div class="card shadow p-3 mb-5 bg-white rounded">
+                            <img src="assets/photos/crystal.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Jquery</h5>
+                            <p class="card-text">This app was made with Jquery library to dynamically update the HTML pages with a fun, creative, interactive game for web browsers.</p>
+                            <a class="nav-link" id="links" href="https://grrrrocks.github.io/unit-4-game/" target="_blank"><i>Link to visit project</i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow p-3 mb-5 bg-white rounded">
+                            <img src="assets/photos/triv.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Javascript</h5>
+                            <p class="card-text">This app was made with Javascript for the logic & jQuery to manipulate the HTML. Layed out with valid HTML & stylish CSS.</p>
+                            <a class="nav-link" id="links" href="https://grrrrocks.github.io/trivia-game/" target="_blank"><i>Link to visit project</i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow p-3 mb-5 bg-white rounded">
+                            <img src="assets/photos/trains.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Firebase</h5>
+                            <p class="card-text">This app was made to incorporate Firebase to host & capture data. The app retrieves & manipulates the information with Moment.js. Provides up-to-date information.</p>
+                            <a class="nav-link" id="links" href="https://grrrrocks.github.io/trains/" target="_blank"><i>Link to visit project</i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                        <br>
+
+                    <div class="card-deck">
+                        <div class="card shadow p-3 mb-5 bg-white rounded">
+                            <img src="assets/photos/group.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Group Project</h5>
+                            <p class="card-text">This app was made with a group of 5 people coming togther to make a creative, interactive, useful app that is also mobile ready. It incorporates multpile API's, style libraries & inplements Firebase to save input & data.</p>
+                            <a class="nav-link" id="links" href="https://mochacosine1206.github.io/teamProject1/" target="_blank"><i>Link to visit project</i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow p-3 mb-5 bg-white rounded">
+                            <img src="assets/photos/gif.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">API's</h5>
+                            <p class="card-text">This app was made with GIPHY API to make a dynamic web page that populates with gifs of your choice. It uses Javascript & jQuery to change the HTML of the site.</p>
+                            <a class="nav-link" id="links" href="https://grrrrocks.github.io/gifphy/" target="_blank"><i>Link to visit project</i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow p-3 mb-5 bg-white rounded">
+                            <img src="assets/photos/nodejs_logo.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Node JS</h5>
+                            <p class="card-text">This project is called Liri & is a language interpretation & recognition interface. A command line node app that takes in parameters & gives back data.</p>
+                            <a class="nav-link" id="links" href="https://github.com/GrrrRocks/liri-node-app" target="_blank"><i>Link to visit project</i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                        <br>
+
+                    <div class="card-deck">
+                        <div class="card shadow p-3 mb-5 bg-white rounded">
+                            <img src="assets/photos/sql.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">MySQL</h5>
+                            <p class="card-text">This project is a Amazon-like storefront with the MySQL skills I'v learned. It demonstrates how to use/create databases with MySQL, how to update, insert & delete data within the database.</p>
+                            <a class="nav-link" id="links" href="https://github.com/GrrrRocks/Node.js-MySQL" target="_blank"><i>Link to visit project</i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow p-3 mb-5 bg-white rounded">
+                            <img src="assets/photos/pexel.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Next Project</h5>
+                            <p class="card-text">Description here</p>
+                            <a class="nav-link" id="links" href="" target="_blank"><i>Link to visit project</i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow p-3 mb-5 bg-white rounded">
+                            <img src="assets/photos/pexel.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Next Project</h5>
+                            <p class="card-text">Description Here</p>
+                            <a class="nav-link" id="links" href="" target="_blank"><i>Link to visit project</i></a>
+                            </div>
+                        </div>
+                    </div>
+
+        </section>
+    </div>
+</div>
+<!----------------------------------------------------------->
+
+<!-----------------------contact----------------------------->
+<div id="contact">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <div class="wrapper">
+                <h1><i>Contact Me</i></h1>
+                <P>Reach out to me for business opportunities and or collaborating</P>
+            </div>
+            
+        <div id="contact-form">
+            <div class="container">
+                <div class="row">
+                    <label for="name">Name</label>
+                </div>
+            </div>
+                
+        <div class="container">
+            <div class="row">
+                <input type="text" id="txtbox" name="name" placeholder=" Enter name" required="required">
+            </div>
+        </div> 
+          
+        <div class="container">
+                <div class="row">
+                    <label for="email">Company Name</label>
+                </div>
+            </div>
+                
+            <div class="container">
+                <div class="row">
+                    <input type="text" id="txtbox" name="company" placeholder=" Enter company name" required="required">
+                </div>
             </div>
 
-
+        <div class="container">
+            <div class="row">
+                <label for="email">Enter Email</label>
+            </div>
         </div>
-               <footer>
-                <div class="container">
-                  Copyright &copy; 
-                </div>
-              </footer>
-            </body>
             
-    </html>
+        <div class="container">
+            <div class="row">
+                <input type="email" id="txtbox" name="email" placeholder=" example@gmail.com" required="required">
+            </div>
+        </div>
+                        
+        <div class="conatiner">
+            <div class="row"></div>
+                <label for="message">Message</label>
+            </div>
+        </div>
+            
+        <div class="container">
+            <div class="row">
+                <textarea  style='resize: none;' rows=9 id="message" name="message" required="required"></textarea>
+            </div>   
+            <button type="submit" class="btn btn-secondary shadow-lg"><i class="fab fa-telegram-plane fa-fw"></i>Submit</button>
+        </div>
+    </div>
+</div>
+<!----------------------------------------------------------->
+
+<footer class="sticky-bottom">
+    <div class="container">
+        <i>Copyright &copy; </i>
+    </div>
+</footer>
+
+<script  src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="assets/portfolio.js"></script>
+    
+</body>
+</html>

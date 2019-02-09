@@ -1,0 +1,125 @@
+body {
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 22px;
+    background-image: linear-gradient(-30deg, #800080, #ffc0cb);
+    height: 100% 100%;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+#masthead {
+    background-image: linear-gradient(-90deg, #d3cce3, #e9e4f0);
+    padding: 20px;
+    border-bottom: solid 3px gray;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline !important;  
+} 
+
+.nav-item {
+    text-shadow: 2px 2px 4px gray;
+    font-size: 28px;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+#main-container {
+    background-image: linear-gradient(-90deg, #d3cce3, #e9e4f0);
+    margin-top: 25px;
+    padding: 5px 10px 0px 10px;
+    opacity: 0.8;
+}
+
+.wrapper {
+    border-bottom: solid 3px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin-left: 3%;
+    color: #800080;
+    border-bottom: solid 2px 100%;
+    text-shadow: 0 0 3px;
+    font-family: 'Oregano', cursive;
+}
+
+h5 {
+    font-family: 'Oregano', cursive;
+}
+
+P {
+    margin-right: 10%;
+    color: gray;
+    font-family: 'Oregano', cursive;
+}
+
+.auth-image {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.img-thumbnail {
+    width: 340px;
+    height: 310px;
+}
+
+.imgtxt {
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-left: 70px;
+}
+
+
+
+#bio {
+    margin-top: 16px;
+}
+
+#txtbox {
+    width: 700px;
+    margin-bottom: 5px;
+}
+
+#message {
+    width: 700px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+label { 
+    font-family: 'Oregano', cursive;
+}    
+
+.btn{
+    margin-bottom: 5px;
+}
+
+footer  {
+    position: absolute;
+    text-align: center;
+    bottom: auto;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-image: linear-gradient(-90deg, #d3cce3, #e9e4f0);
+    font-family: 'Oregano', cursive;
+    color: gray;
+    font-weight: bold;
+    border-top: solid 3px gray;
+}
+
+.main-section {
+    margin-bottom: 100px;
+}
