@@ -1,2 +1,3 @@
 # Bootstrap-Portfolio
-week 2 hmwrk
+Link to the page -  https://grrrrocks.github.io/Bootstrap-Portfolio/
+
